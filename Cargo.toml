@@ -1,0 +1,17 @@
+[package]
+name = "binty"
+version = "0.1.0"
+authors = ["George A. Michel <george@nomadscience.org>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "binty"
+path = "src/lib.rs"
+
+[[bin]]
+name = "binty"
+path = "src/main.rs"
+
+[dependencies]
+bitlab = "1.0.0"
